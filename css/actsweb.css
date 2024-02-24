@@ -1,0 +1,31 @@
+@import url("reset.css");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto+Slab:wght@100..900&display=swap");
+
+:root {
+  /* Fonts */
+  --font-body: "Lato", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-title: "Roboto Slab", serif;
+
+  /* Colours */
+  --text-color: #454a49;
+  --heading-color: #717675;
+  --light-text-color: #707682;
+  --link-color: #2188cd;
+  --link-color-alt: #0d8c7d;
+  --page-background: white;
+  --element-background: #f4f6f5;
+  --accent-color: var(--link-color-alt);
+  --invalid-color: #cd6047;
+}
+
+body {
+  font: var(--font-body);
+  color: var(--text-color);
+  background: var(--element-background);
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  min-height: 100dvh;
+}
